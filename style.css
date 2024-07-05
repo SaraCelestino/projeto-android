@@ -1,0 +1,150 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor1: #c5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+
+    --fonte-padrão: Arial, Verdana, HELVETICA, SANS-SERIF;
+    --fonte-destaque: 'Bebas Neue, cursive;'
+}
+
+h1#cabeçalho{
+    font-family: bebas system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2{
+    background-image: linear-gradient(to right, rgb(151, 202, 151), rgba(203, 241, 203, 0.623));
+    border-style: none;
+}
+
+mark{
+    background-color: rgba(84, 161, 84, 0.637);
+    font-weight: bold;
+}
+
+div#margem{
+    background-image: linear-gradient(to top, rgb(26, 87, 36), rgb(37, 202, 51));
+    font-family: Bebas Neue Bold;
+    color: rgb(214, 211, 211);
+    padding: 10px 10px 5px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 0px;
+    font-size: 25px;
+}
+
+div#menu{
+    text-align: right;
+    width: 440px;
+}
+
+div:hover > main{
+    display: none;
+    border-radius: 5px;
+    border: 1px solid;
+    display: inline-block;
+    background-color: lightgreen;
+    text-decoration: underline black;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+
+a{
+    color: rgb(126, 204, 158);
+}
+
+div#caixinha{
+    width: 1700px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+}
+
+body{
+    background-color: var(--cor1);
+    font-family: 'idroid', Times, serif;
+    text-align: justify;
+    margin: auto;
+}
+
+header > h1 {
+    color: var(--cor3);
+}
+
+main h1 {
+    color: var(--cor5);
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.cor1{
+    color: rgb(5, 87, 5);
+    font-weight: bold;
+}
+
+.cor02{
+    color: rgb(5, 87, 5);
+    font-weight: bold;
+}
+
+.cor03{
+    color: rgb(5, 87, 5);
+    font-weight: bold;  
+}
+
+.cor04{
+    color: rgb(5, 87, 5);
+    font-weight: bold;  
+}
+
+.cor05{
+    color: rgb(5, 87, 5);
+    font-weight: bold; 
+}
+
+div#video{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(8, 87, 8);
+}
+
+div#textinho{
+    box-shadow: 5px 10px 10px;
+    font-family: bebas system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(128, 190, 128);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    padding: 5px;
+    margin: 20px;
+}
+
+h3{
+    background-color: green;
+}
+
+.lista{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(8, 124, 8);
+    color: white;
+    text-align: center;
+    font-style: rgb(255, 255, 255);
+}
+
+.rodapé{
+    color: white;
+}
